@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800;900&display=swap');
+@import 'tailwindcss';
+
+@layer base {
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #f4f1eb;
+  }
+
+  ::selection {
+    background: #d9ff57;
+    color: #18201d;
+  }
+}
